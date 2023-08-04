@@ -59,7 +59,7 @@ export default {
   },
   data() {
     return {
-      stockTerm: moment('2023-07-31'),
+      stockTerm: moment('2023-08-31'),
       remains: '',
       minute: 2,
       second: 5,

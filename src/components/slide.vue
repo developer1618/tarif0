@@ -1,7 +1,7 @@
 <template>
   <div class="isolate bg-gray-900 pt-48">
     <div class="main__container">
-      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">Веб разработка за <br> 0 сомони</h1>
+      <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center pb-10">Веб разработка за <br> 0 сомони</h1>
     </div>
     <carousel :settings="settings">
       <slide v-for="slide in sliders" :key="slide.id">
